@@ -1,0 +1,308 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.texto-rodape {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	z-index: 1001;
+}
+.head{
+	background-color:#F4F4F4;
+	background-repeat:repeat-x;
+	height:45px;
+	width:100%;
+	position:fixed;
+	z-index:1000;
+}
+.top{
+	max-width:1024px;
+	vertical-align:top;
+	clear: both;
+	float: center;
+	position:relative;
+	height:45px;
+}
+
+.body{
+	height:auto;
+	padding-top:45px;
+	width:100%;
+}
+.corpo{
+	max-width:1024px;
+	position:absolute;
+	border-right:1px solid #666;
+	border-left:1px solid #666;
+	border-bottom:1px solid #666;
+	min-height:89%;
+}
+#logo-mini{
+	padding:5px;
+	float:left;
+	position:static;
+}
+/* .txtop{
+	text-align:center;
+	padding:10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #F00;
+}
+.bttop{	
+	width:120px;
+	float:right;
+	position:static;
+	vertical-align:middle !important;
+	background-color:#F4F4F4;!important;
+} */
+#menu-vertical{
+	width:25%;
+	border-right:1px solid #666;
+	float:left;
+	min-height: 100%;
+    position: absolute;
+	height:100%;
+}
+#conteudo{
+	width:100%;
+	float:right;
+	position:relative;
+}
+
+.conteudo-interno{
+	width:100%;
+}
+
+.base {
+	height:30px;
+	width:100%;
+	bottom:0;
+	position:absolute;
+}
+.rodape{
+	max-width:1024px;
+	vertical-align:top;
+	clear: both;
+	float: center;
+	position:absolute;
+	height:30px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+}
+.ico{
+	padding-left:22px;
+	background-repeat:no-repeat;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.video-ico{
+	background-image:url(/static//static//static/images/ico/video.jpg);
+}
+.foto-ico{
+	background-image:url(/static/images/ico/icone-fotos.gif);
+}
+.texto-ico{
+	background-image:url(/static/images/ico/noticiasIconeTexto.gif);
+}
+.link-ico{
+	background-image:url(/static/images/ico/link_icon.png);
+}
+.facebook-ico{
+	background-image:url(/static/images/ico/facebook.JPG)
+}
+.twitter-ico{
+	background-image:url(/static/images/ico/twitter.JPG)
+}
+.linkedin-ico{
+	background-image:url(/static/images/ico/linked.JPG)
+}
+.atualizacao-ico{
+	background-image:url(/static/images/ico/%C3%8Dndice.jpg)
+}
+.lixeira-ico{
+	background-image:url(/static/images/ico/excluir.gif);
+	cursor: pointer;
+}
+.titulo{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration;
+}
+.texto{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+.link{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.box-redondo{
+	border: 2px solid #000;
+	border-radius: 1em;
+}
+.foto-perfil{
+	text-align:center;
+}
+.table-line{
+	border-top: 1px solid #000;
+}
+.input{
+	height:30px;
+}
+
+/*MENU*/
+
+
+.ui-menu { 
+    overflow: hidden;
+}
+
+#nav.ui-menu.ui-widget-content {
+	
+    border:none;
+    background:none;
+}
+.ui-menu .ui-menu {
+    overflow: visible !important;
+}
+.ui-menu > li { 
+    left:31px !important; 
+    float: left;
+    display: block;
+    width: auto !important;
+}
+.ui-menu ul li {
+    display:block;
+    float:none;
+}
+.ui-menu ul li ul {
+    left:120px !important;
+    width:100%;
+}
+.ui-menu ul li ul li {
+    width:auto;
+}
+.ui-menu ul li ul li a {
+    float:left;
+}
+.ui-menu > li {
+    margin: 5px 5px !important;
+    padding: 0 0 !important;
+}
+.ui-menu > li > a { 
+    float: left;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.ui-menu .ui-menu-icon { 
+    margin-top: 0.3em !important;
+}
+.ui-menu .ui-menu .ui-menu li { 
+    float: left;
+    display: block;
+}
+
+
+/*grid*/
+
+.ui-datagrid {
+  width:100%
+}
+.ui-datagrid thead th,.ui-datagrid tbody td {
+  text-align:left;
+  padding:0.5em 0.3em;
+  vertical-align:middle
+}
+
+/*Template Biblia */
+.biblia{
+		background-color:rgb(248,248,248);
+		margin: 5px;
+		font-family: arial,sans-serif;
+}
+.testamento{
+	float: left;
+	
+}
+.livro{
+	float: left;
+}
+
+.testamento p {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+.livro a span {
+	font-size: 18px;
+	font-weight: normal;	
+}
+
+@media screen and (min-width: 1024px) {
+	.central {
+	  position: absolute;
+	  left: 50%; /*posição em relação à parte esquerda*/
+	  margin-left: -512px;
+	  margin-top: 0;
+	}
+}
+@media screen and (max-width: 620px){
+	.versiculos{
+		width: 100%
+	}
+	.numeroCapituloMini{
+		width: 100%
+	}
+	
+	.testamento{
+		width: 100%
+	}
+	.livro{
+		width: 50%;
+	}	
+}
+@media screen and (min-width: 620px){
+	.versiculos{
+		width: 60%
+	}
+	.numeroCapituloMini{
+		width: 30%
+	}
+		
+	.testamento{
+		width: 50%
+	}
+	.livro{
+		width: 50%;
+	}
+	
+}
+
+@media screen and (max-width: 400px){
+	.livro{
+		width: 100%;
+	}
+}
+
+
